@@ -92,7 +92,8 @@ with col2:
 
 
 st.markdown("</br>", unsafe_allow_html=True)
-st.warning('NOTE : You need atleast Intel i3 with 8GB memory for proper functioning of this application.')
+st.warning('NOTE : You need atleast Intel i3 with 8GB memory for proper functioning of this application. ' +
+   ' Images greater then (2000x2000) are resized to (1000x1000).')
 
 
 if content_image is not None and style_image is not None:
